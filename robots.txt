@@ -1,0 +1,54 @@
+# robots.txt for zzyigou.com
+
+# Allow all crawlers access to the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://zzyigou.com/sitemap.xml
+
+# Crawl delay (optional, be considerate to the server)
+Crawl-delay: 1
+
+# Disallow access to any sensitive or unnecessary files (if needed)
+# No sensitive files to disallow currently
+
+# Common crawlers that we specifically allow
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: PetalBot
+Allow: /
